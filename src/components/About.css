@@ -1,0 +1,9 @@
+.about {
+  background-color: var(--color-bg-alt);
+}
+
+.about__text {
+  max-width: 720px;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+}
