@@ -16,7 +16,7 @@ export const projectsData = [
       "Calculadora interactiva construida con React, con soporte para operaciones básicas, decimales y un diseño moderno y responsive.",
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     image: "/projects/calculadora.jpg",
-    demoUrl: "#",
+    demoUrl: "https://joel-18.github.io/Calculadora-React/",
     codeUrl: "https://github.com/Joel-18/Calculadora-React.git",
   },
   {
