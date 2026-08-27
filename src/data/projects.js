@@ -7,7 +7,7 @@ export const projectsData = [
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     image: "/projects/restaurante-ortiz.jpg",
     demoUrl: "#", // TODO: reemplazar con la URL real del deploy
-    codeUrl: "#", // TODO: reemplazar con la URL real del repositorio en GitHub
+    codeUrl: "https://github.com/Joel-18/Restaurante-React.git",
   },
   {
     id: "calculadora",
@@ -17,26 +17,38 @@ export const projectsData = [
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     image: "/projects/calculadora.jpg",
     demoUrl: "#",
-    codeUrl: "#",
+    codeUrl: "https://github.com/Joel-18/Calculadora-React.git",
   },
   {
     id: "techstore",
     name: "TechStore",
     description:
       "Tienda online ficticia de tecnología, 100% frontend: catálogo por categorías, usuarios, carrito, checkout simulado, pedidos y favoritos usando React Router y localStorage.",
-    technologies: ["React", "React Router", "JavaScript", "APIs", "localStorage"],
+    technologies: [
+      "React",
+      "React Router",
+      "JavaScript",
+      "APIs",
+      "localStorage",
+    ],
     image: "/projects/techstore.jpg",
     demoUrl: "#",
-    codeUrl: "#",
+    codeUrl: "https://github.com/Joel-18/TechStore.git",
   },
   {
     id: "gymtrack",
     name: "GymTrack",
     description:
       "Aplicación de gestión de gimnasio: rutinas, entrenamientos, historial y progreso, con gráficos simples y datos persistidos en localStorage.",
-    technologies: ["React", "React Router", "JavaScript", "APIs", "localStorage"],
+    technologies: [
+      "React",
+      "React Router",
+      "JavaScript",
+      "APIs",
+      "localStorage",
+    ],
     image: "/projects/gymtrack.jpg",
     demoUrl: "#",
-    codeUrl: "#",
+    codeUrl: "https://github.com/Joel-18/GymTrack.git",
   },
 ];
