@@ -6,7 +6,7 @@ export const projectsData = [
       "Aplicación web de restaurante con menú por categorías, carrito de compras, control de cantidades y cálculo de totales en tiempo real.",
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     image: "/projects/restaurante-ortiz.jpg",
-    demoUrl: "#", // TODO: reemplazar con la URL real del deploy
+    demoUrl: "https://joel-18.github.io/Restaurante-React/",
     codeUrl: "https://github.com/Joel-18/Restaurante-React.git",
   },
   {
