@@ -8,7 +8,7 @@ function Hero() {
       <div className="container hero__inner">
         <div className="hero__photo-wrapper">
           <img
-            src="/profile-photo.jpg"
+            src={`${import.meta.env.BASE_URL}profile-photo.jpg`}
             alt="Foto de perfil de Joel Enrique Ortiz Álvarez"
             className="hero__photo"
           />
