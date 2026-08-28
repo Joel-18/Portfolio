@@ -32,7 +32,7 @@ export const projectsData = [
       "localStorage",
     ],
     image: `${import.meta.env.BASE_URL}projects/techstore.jpg`,
-    demoUrl: "#",
+    demoUrl: "https://joel-18.github.io/TechStore/",
     codeUrl: "https://github.com/Joel-18/TechStore.git",
   },
   {
@@ -48,7 +48,7 @@ export const projectsData = [
       "localStorage",
     ],
     image: `${import.meta.env.BASE_URL}projects/gymtrack.jpg`,
-    demoUrl: "#",
+    demoUrl: "https://joel-18.github.io/GymTrack/",
     codeUrl: "https://github.com/Joel-18/GymTrack.git",
   },
 ];
