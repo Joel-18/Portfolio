@@ -1,0 +1,24 @@
+.category-filter {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.category-filter__btn {
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1px solid #3a2a22;
+  background-color: transparent;
+  color: #d6c2ae;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.category-filter__btn--active,
+.category-filter__btn:hover {
+  background-color: #d97706;
+  border-color: #d97706;
+  color: white;
+}

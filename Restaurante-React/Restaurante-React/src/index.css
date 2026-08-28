@@ -1,0 +1,7 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background-color: #140d0a; color: #f5e6d3; font-family: "Segoe UI", system-ui, sans-serif; }
+img { max-width: 100%; display: block; }
+.container { max-width: 1160px; margin: 0 auto; padding: 32px 24px 64px; }
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+.page-title { font-size: 2rem; margin-bottom: 8px; }
+.page-subtitle { color: #b8a693; margin-bottom: 32px; }

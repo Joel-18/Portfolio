@@ -1,0 +1,75 @@
+.ts-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #0f172a;
+  border-bottom: 1px solid #1e293b;
+}
+
+.ts-navbar__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ts-navbar__brand {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #38bdf8;
+}
+
+.ts-navbar__links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ts-navbar__links a {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.ts-navbar__links a.active,
+.ts-navbar__links a:hover {
+  color: #38bdf8;
+}
+
+.ts-navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.ts-navbar__cart {
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.ts-navbar__badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: #ef4444;
+  color: white;
+  font-size: 0.65rem;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ts-navbar__user {
+  font-size: 0.85rem;
+  color: #e2e8f0;
+  background-color: #1e293b;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
