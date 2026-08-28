@@ -1,0 +1,10 @@
+.gt-navbar { position: sticky; top: 0; z-index: 100; background-color: #0b1120; border-bottom: 1px solid #1e293b; }
+.gt-navbar__inner { max-width: 1280px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.gt-navbar__brand { font-weight: 800; font-size: 1.2rem; color: #22c55e; }
+.gt-navbar__links { display: flex; gap: 18px; flex-wrap: wrap; }
+.gt-navbar__links a { color: #94a3b8; font-size: 0.88rem; font-weight: 500; }
+.gt-navbar__links a.active, .gt-navbar__links a:hover { color: #22c55e; }
+.gt-navbar__actions { display: flex; align-items: center; gap: 16px; }
+.gt-navbar__bell { position: relative; font-size: 1.1rem; }
+.gt-navbar__badge { position: absolute; top: -6px; right: -10px; background-color: #ef4444; color: white; font-size: 0.6rem; width: 16px; height: 16px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.gt-navbar__user { font-size: 0.85rem; background-color: #1e293b; padding: 8px 14px; border-radius: 8px; color: #e2e8f0; }

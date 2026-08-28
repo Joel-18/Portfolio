@@ -1,0 +1,62 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background-color: #0b1120; color: #e2e8f0; font-family: "Segoe UI", system-ui, sans-serif; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+input, select, textarea, button { font-family: inherit; }
+.container { max-width: 1280px; margin: 0 auto; padding: 32px 24px 64px; }
+.page-title { font-size: 1.8rem; margin-bottom: 8px; color: #f1f5f9; }
+.page-subtitle { color: #94a3b8; margin-bottom: 28px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 22px; border-radius: 10px; font-weight: 600; cursor: pointer; border: none; font-size: 0.9rem; transition: filter 0.2s ease, transform 0.2s ease; }
+.btn:hover { filter: brightness(1.1); transform: translateY(-1px); }
+.btn-primary { background-color: #22c55e; color: #0b1120; }
+.btn-outline { background-color: transparent; border: 1px solid #334155; color: #e2e8f0; }
+.btn-danger { background-color: #ef4444; color: white; }
+.card-box { background-color: #0f172a; border: 1px solid #1e293b; border-radius: 14px; padding: 24px; }
+.empty-state { text-align: center; padding: 64px 24px; color: #64748b; }
+.form-field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+.form-field label { font-size: 0.85rem; color: #94a3b8; }
+.form-field input, .form-field select, .form-field textarea { background-color: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 10px 12px; color: #e2e8f0; }
+.form-field input:focus, .form-field select:focus, .form-field textarea:focus { outline: 2px solid #22c55e; }
+.gt-footer { text-align: center; padding: 24px; color: #64748b; font-size: 0.85rem; border-top: 1px solid #1e293b; margin-top: 40px; }
+.exercises-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+
+.gt-auth { display: flex; justify-content: center; padding-top: 40px; }
+.gt-auth-form { max-width: 420px; width: 100%; }
+.gt-auth-switch { text-align: center; margin-top: 16px; color: #94a3b8; font-size: 0.85rem; }
+.gt-auth-switch a { color: #22c55e; }
+.gt-form-error { background-color: rgba(239,68,68,0.15); color: #f87171; padding: 10px; border-radius: 8px; margin-bottom: 16px; font-size: 0.85rem; }
+.gt-form-success { background-color: rgba(74,222,128,0.15); color: #4ade80; padding: 10px; border-radius: 8px; margin-bottom: 16px; font-size: 0.85rem; }
+
+.gt-hero { text-align: center; padding: 64px 0; background: radial-gradient(circle at top, #1e293b, #0b1120 70%); border-radius: 20px; margin-bottom: 32px; }
+.gt-hero h1 { font-size: clamp(1.6rem, 3.5vw, 2.4rem); margin-bottom: 12px; color: #f1f5f9; }
+.gt-hero p { color: #94a3b8; margin-bottom: 24px; }
+.gt-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+.gt-stats .card-box { display: flex; flex-direction: column; gap: 6px; }
+.gt-stats span { color: #94a3b8; font-size: 0.85rem; }
+.gt-stats strong { font-size: 1.6rem; color: #22c55e; }
+
+.gt-editor-layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: start; }
+.gt-routine-exercise__fields { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 10px; }
+.gt-routine-exercise__fields label { display: flex; flex-direction: column; font-size: 0.75rem; color: #94a3b8; gap: 4px; }
+.gt-routine-exercise__fields input { background: #0b1120; border: 1px solid #334155; border-radius: 6px; padding: 6px; color: #e2e8f0; }
+.gt-add-exercise-list { display: flex; flex-direction: column; gap: 8px; max-height: 480px; overflow-y: auto; }
+.gt-add-exercise-list li { display: flex; justify-content: space-between; align-items: center; background: #0f172a; border: 1px solid #1e293b; padding: 10px 12px; border-radius: 8px; font-size: 0.85rem; }
+.gt-add-exercise-list small { color: #64748b; }
+.gt-add-exercise-list button { padding: 4px 12px; }
+
+@media (max-width: 800px) {
+  .gt-editor-layout { grid-template-columns: 1fr; }
+  .gt-routine-exercise__fields { grid-template-columns: repeat(2, 1fr); }
+}
+
+.gt-session__card { max-width: 480px; margin: 0 auto; text-align: center; }
+.gt-session__card h2 { color: #22c55e; margin-bottom: 8px; }
+.gt-session__card p { color: #94a3b8; margin-bottom: 20px; }
+.gt-session__rest { display: flex; flex-direction: column; gap: 10px; align-items: center; }
+.gt-session__rest strong { font-size: 2.4rem; color: #f1f5f9; }
+.gt-session__progress { color: #cbd5e1 !important; }
+
+.gt-calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+.gt-calendar__day-label { text-align: center; color: #64748b; font-size: 0.75rem; padding: 6px; }
+.gt-calendar__cell { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; background: #0f172a; border: 1px solid #1e293b; border-radius: 8px; color: #94a3b8; font-size: 0.85rem; }
+.gt-calendar__cell--active { background: rgba(34,197,94,0.15); border-color: #22c55e; color: #4ade80; font-weight: 700; }
